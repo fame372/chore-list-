@@ -21,7 +21,6 @@ export default function Main() {
     }
 
     function removeWholeList() {
-        // localStorage.clear()
         setListItems([])
     }
 
@@ -29,7 +28,6 @@ export default function Main() {
         setListItems(prevListItems => prevListItems.filter(item => item.id !== itemId))
     }
 
-    
     return (
         <main>
             <Form 
