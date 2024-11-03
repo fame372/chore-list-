@@ -1,0 +1,24 @@
+{
+    "name": "Busy-Bee Chore-List",
+    "description": "An app that keeps track of your never ending to-do list!",
+    "scripts": {
+        "start": "vite",
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "firebase": "^11.0.1",
+        "firebase-admin": "^12.7.0",
+        "nanoid": "3.1.28",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-mde": "11.5.0",
+        "react-split": "2.0.13",
+        "showdown": "1.9.1",
+        "vite": "latest"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "*"
+    }
+}
