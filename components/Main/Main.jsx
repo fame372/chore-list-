@@ -37,6 +37,7 @@ export default function Main() {
             <List 
                 listItems={listItems}
                 removeItem={removeItem}
+               
             />
         </main>
     )

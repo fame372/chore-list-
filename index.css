@@ -1,7 +1,116 @@
 body {
-    background-color: #555;
+  
+    box-sizing: border-box;
+    font-family: "Playfair Display", "sans-serif";
+    background-image: url(./images/beehive-background.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   width: auto;
+   height: 100%;
+
+    
 }
 
 .hidden {
     visibility: hidden;
+}
+.container{
+    text-align: center;
+    margin: auto;
+    height: 50vh;
+    width: 60vw;
+    display: grid;
+    justify-content: center;
+  
+}
+/* header  starts */
+header{
+    position: relative;
+}
+
+h1 {
+    margin:0px;
+    padding-top: 15px;
+    font-family: "Playfair Display SC";
+    font-weight: 500;
+}
+
+h2{
+    font-family: "Playfair Display";
+    margin-top:5px;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+img{
+    position: absolute;
+    width: 50px;
+    z-index: 1;
+    right:1px;
+    top:20px;
+     rotate:-30deg;
+}
+
+.sub-headers{
+    color: #292208;
+   
+}
+
+
+/* input and buttons */
+.btn-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:.50rem;
+   
+}
+input{
+    color: #FBDF7C;
+    background-color: rgb(84, 81, 59, 0.86);
+    border: none;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    
+  
+}
+
+button{
+    color: black;
+    background-color: #FBDF7C;
+    border: 0;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 8px;
+
+}
+.remove-btn{
+    background-color: #fbbf24;
+}
+
+/* list */
+
+ul{
+  
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+    color:#6d6853;
+ 
+}
+
+
+ul li{
+    font-size: 20px;
+    background-color: #FBDF7C;
+    padding:  10px ;
+    border-radius: 5px;
+    text-align: center;
+   
 }
